@@ -1,10 +1,9 @@
 var config = {
-  paths: {
-      slick: 'js/slick.min.js'
-  },
-  shim: {
-      slick: {
-          deps: ['jquery.js']
-      }
-    }
- };
+    paths: {
+        'slick': "Robin_Eshoper/js/slick.min"
+    },
+
+   shim: {
+            'slick': ['jquery']
+   },
+};
